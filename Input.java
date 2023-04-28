@@ -25,5 +25,9 @@ public class Input {
                 System.out.println(channelView.get(i));
             }
         }
+     for (String channel: channelView)
+    {
+        System.out.println(channel);
+    }
     }
 }
